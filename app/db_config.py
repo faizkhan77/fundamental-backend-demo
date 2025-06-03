@@ -1,7 +1,10 @@
 # app/db_config.py
 from sqlmodel import create_engine, Session
 
-DATABASE_URL = "mysql+pymysql://root:root@localhost:3306/accord_base_live"
+# DATABASE_URL = "mysql+pymysql://root:root@localhost:3306/accord_base_live"
+DATABASE_URL = "mysql+pymysql://root:root@0.tcp.in.ngrok.io:19444/accord_base_live"
+
+
 # Replace with your actual MySQL connection details:
 # USER: your_mysql_user
 # PASSWORD: your_mysql_password
